@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Portfolio</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<!--
+	<header>
+		<nav>
+			<ul>
+				<li><a href="#home">Home</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#work">Work</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+	-->
+	<a target="_blank" href=""><img src="https://media.discordapp.net/attachments/751238816022397051/1093746639870631968/image.png?width=741&height=677"width="100" 
+     height="100" alt="Hi" /></a>
+	<main>
+		<section id="home">
+			<h1>Welcome to my portfolio website</h1>
+			<p>I am Cheung Kwan Yuen, a student currently studying about business and computing.</p>
+		</section>
+		<section id="about">
+			<h2>My learning</h2>
+			<p>the course website is what is used in lessons</p>
+			<p><a href="http://personal.cityu.edu.hk/dcywchan/">the course website</a></p>
+			<p>this is a chinese website that provides beginner guides on python</p>
+			<p><a href="https://www.runoob.com/python/python-tutorial.html">runoob.com</a></p>
+			<p>a python tutorial using pycharm</p>
+			<p><a href="https://www.youtube.com/watch?v=UwrANSVp55s&list=PLVyDH2ns1F75k1hvD2apA0DwI3XMiSDqp&index=13">the playlist</a></p>
+		</section>
+		<section id="work">
+			<h2>My Work</h2>
+			<p>no work right now</p>
+			<!-- Insert your portfolio projects here with images and descriptions -->
+		</section>
+		<section id="contact">
+			<h2>Contact Me</h2>
+			    <input type="text" value="brocknoobby@gmail.com" id="myInput">
+<button onclick="myFunction()">Copy text</button>
+
+<script>
+function myFunction() {
+  // Get the text field
+  var copyText = document.getElementById("myInput");
+
+  // Select the text field
+  copyText.select();
+  copyText.setSelectionRange(0, 99999); // For mobile devices
+
+  // Copy the text inside the text field
+  navigator.clipboard.writeText(copyText.value);
+  
+  // Alert the copied text
+  alert("Copied the text: " + copyText.value);
+}
+</script>
+			<!-- Gmail:brocknoobby@gmail.com -->
+		</section>
+	</main>
+	<footer>
+		<p>This is the bottom</p>
+	</footer>
+</body>
+</html>
